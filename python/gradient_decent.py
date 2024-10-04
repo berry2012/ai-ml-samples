@@ -1,5 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from utils import *
+import copy
+import math
+%matplotlib inline
 plt.style.use('./deeplearning.mplstyle')
 
 x_train = np.array([1.0, 2.0])
